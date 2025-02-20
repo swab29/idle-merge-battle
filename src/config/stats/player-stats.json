@@ -1,0 +1,30 @@
+{
+  "baseStats": {
+    "maxHealth": 100,
+    "currentHealth": 100,
+    "attack": 10,
+    "defense": 5,
+    "speed": 1.0,
+    "blockChance": 0.1,
+    "attackSpeed": 1.0,
+    "criticalChance": 0.05,
+    "criticalDamage": 1.5,
+    "moveSpeed": 1.0,
+    "gameSpeed": 1.0,
+    "prestigeMultiplier": 1.0,
+    "doubleCurrencyChance": 0.0,
+    "quintupleCurrencyChance": 0.0
+  },
+  "levelScaling": {
+    "maxHealth": 1.1,
+    "attack": 1.08,
+    "defense": 1.05,
+    "attackSpeed": 1.02,
+    "criticalChance": 1.01,
+    "criticalDamage": 1.02
+  },
+  "experienceRequirements": {
+    "baseExperience": 100,
+    "experienceScaling": 1.15
+  }
+} 

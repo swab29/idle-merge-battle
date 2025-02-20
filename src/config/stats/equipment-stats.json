@@ -1,0 +1,169 @@
+{
+  "baseStats": {
+    "weapon": {
+      "attack": 10,
+      "criticalChance": 0.05,
+      "criticalDamage": 0.2,
+      "attackSpeed": 0.1
+    },
+    "armor": {
+      "defense": 8,
+      "health": 20,
+      "blockChance": 0.05
+    },
+    "helmet": {
+      "defense": 5,
+      "health": 15,
+      "criticalChance": 0.02
+    },
+    "boots": {
+      "defense": 4,
+      "moveSpeed": 0.1,
+      "attackSpeed": 0.05
+    },
+    "accessory": {
+      "criticalChance": 0.03,
+      "criticalDamage": 0.1,
+      "moveSpeed": 0.05
+    }
+  },
+  "variations": {
+    "A": {
+      "primary": {
+        "stat": "attack",
+        "modifier": 1.5
+      },
+      "secondary": {
+        "stat": "criticalDamage",
+        "modifier": 1.2
+      }
+    },
+    "B": {
+      "primary": {
+        "stat": "defense",
+        "modifier": 1.5
+      },
+      "secondary": {
+        "stat": "health",
+        "modifier": 1.2
+      }
+    },
+    "C": {
+      "primary": {
+        "stat": "attackSpeed",
+        "modifier": 1.3
+      },
+      "secondary": {
+        "stat": "moveSpeed",
+        "modifier": 1.2
+      }
+    },
+    "D": {
+      "primary": {
+        "stat": "blockChance",
+        "modifier": 1.4
+      },
+      "secondary": {
+        "stat": "defense",
+        "modifier": 1.2
+      }
+    },
+    "E": {
+      "primary": {
+        "stat": "criticalChance",
+        "modifier": 1.3
+      },
+      "secondary": {
+        "stat": "criticalDamage",
+        "modifier": 1.2
+      }
+    }
+  },
+  "levelScaling": {
+    "attack": 1.15,
+    "defense": 1.12,
+    "health": 1.1,
+    "criticalChance": 1.05,
+    "criticalDamage": 1.08,
+    "attackSpeed": 1.03,
+    "blockChance": 1.04,
+    "moveSpeed": 1.02
+  },
+  "setBonus": {
+    "A": [
+      {
+        "pieces": 2,
+        "bonus": {
+          "criticalDamage": 0.2
+        }
+      },
+      {
+        "pieces": 4,
+        "bonus": {
+          "attack": 0.3,
+          "criticalChance": 0.1
+        }
+      }
+    ],
+    "B": [
+      {
+        "pieces": 2,
+        "bonus": {
+          "health": 0.2
+        }
+      },
+      {
+        "pieces": 4,
+        "bonus": {
+          "defense": 0.3,
+          "blockChance": 0.1
+        }
+      }
+    ],
+    "C": [
+      {
+        "pieces": 2,
+        "bonus": {
+          "attackSpeed": 0.15
+        }
+      },
+      {
+        "pieces": 4,
+        "bonus": {
+          "moveSpeed": 0.2,
+          "attackSpeed": 0.1
+        }
+      }
+    ],
+    "D": [
+      {
+        "pieces": 2,
+        "bonus": {
+          "blockChance": 0.1
+        }
+      },
+      {
+        "pieces": 4,
+        "bonus": {
+          "defense": 0.2,
+          "health": 0.2
+        }
+      }
+    ],
+    "E": [
+      {
+        "pieces": 2,
+        "bonus": {
+          "criticalChance": 0.1
+        }
+      },
+      {
+        "pieces": 4,
+        "bonus": {
+          "criticalDamage": 0.3,
+          "attack": 0.15
+        }
+      }
+    ]
+  }
+} 
